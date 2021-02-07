@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.ConsoleApp\\ReceptionManagement.ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.ConsoleApp\\ReceptionManagement.ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.ConsoleApp\\ReceptionManagement.ConsoleApp.csproj",
+        "projectName": "ReceptionManagement.ConsoleApp",
+        "projectPath": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.ConsoleApp\\ReceptionManagement.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\SCC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SCC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {
+              "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.Core\\ReceptionManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.Core\\ReceptionManagement.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.Core\\ReceptionManagement.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.Core\\ReceptionManagement.Core.csproj",
+        "projectName": "ReceptionManagement.Core",
+        "projectPath": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.Core\\ReceptionManagement.Core.csproj",
+        "packagesPath": "C:\\Users\\SCC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SCC\\Desktop\\ReceptionManagement-main\\ReceptionManagement.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SCC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
